@@ -3,7 +3,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+<link rel="manifest" href="/manifest.json">
 <title>Ukrainian Reader</title>
 </head>
 <style>
@@ -66,7 +66,7 @@ body {	font-family: 'Literata';
 
 function showResult(xml) {
     var txt = "";
-    path = "/bookstore/book/title"
+    path = "/lexicon/lexitem[1]/head"
     if (xml.evaluate) {
         var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
         var result = nodes.iterateNext();
@@ -75,7 +75,7 @@ function showResult(xml) {
             result = nodes.iterateNext();
         } 
     }
-    document.getElementById("demo").innerHTML = txt;
+    document.getElementById("tagview").innerHTML = txt;
 }
 
 // function setup runs with body onLoad event
@@ -86,7 +86,7 @@ function setup() {
 document.querySelectorAll('.tag').forEach(function(item) {
   // add event to each of the element
   item.addEventListener('mouseover', function(e) {
-  	document.getElementById('tagview').innerHTML=lexicon[this.dataset.lexiconid];
+  	//document.getElementById('tagview').innerHTML=lexicon[this.dataset.lexiconid];
   })
 });
 return true;
