@@ -84,7 +84,7 @@ function highlightAll(id) {
 		el.style.borderBottom="1px dotted gray";
 		el.style.color="black";
 	 });
-	document.querySelectorAll('span[data-lexiconid="1"]').forEach(function(el) {
+	document.querySelectorAll('span[data-lexiconid="'+id+'"]').forEach(function(el) {
 		el.style.borderBottom="2px dashed royalblue";
 		el.style.color="royalblue";
 	});
