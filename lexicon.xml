@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lexicon>
+
+<lexitem id="1">
+	<head>accusative ending (noun)</head>
+	<body> 
+		<table>
+		<thead>
+		<tr><td>Masc</td><td>Fem</td><td>Neut</td></tr>
+		</thead>
+		<tbody>
+		<tr><td>o -> a</td><td>a -> y</td><td>no changes</td></tr>
+		</tbody>
+		</table>
+	</body>
+	<cases>
+		<case id="1">simple direct object</case>
+		<case id="2">preposition + accusative</case>
+	</cases>
+</lexitem>
+
+<lexitem id="2">
+	<head>accusative ending (adjective)</head>
+	<body> 
+	
+	</body>
+</lexitem>
+
+<lexitem id="3">
+	<head>accusative personal pronoun</head>
+	<body> 
+		<table><tr><td>ya</td><td>mene</td></tr></table>
+	</body>
+</lexitem>
+
+<lexitem id="4">
+	<head>preposition + accusative</head>
+	<body>
+		в - in, at <br/>
+		під - under
+	</body>
+</lexitem>
+
+<lexitem id="5">
+	<head> </head>
+	<body> </body>
+</lexitem>
+
+<lexitem id="6">
+	<head> </head>
+	<body> </body>
+</lexitem>
+
+<lexitem id="99">
+	<head>at (time) - о + genitive</head>
+	<body> </body>
+</lexitem>
+
+</lexicon>

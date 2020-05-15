@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>Ukrainian Reader</title>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Literata:wght@400&display=swap');
+
+body {	font-family: 'Literata';
+		font-size:	16pt;
+		line-height: 1.7;
+	}
+
+#headline 
+	{	width: 1025;
+		background: yellow;
+		font-size: 20pt;
+		padding: 10px;
+	}
+	
+#maintext
+	{	float: left;
+		clear: left;
+		background: lightblue;
+		width: 600px;
+		margin: 5 5 5 0;
+		padding: 10;
+		height: 600px;
+		overflow: auto;
+	}
+#tagview
+	{	float: left;
+		clear: right;
+		background: pink;
+		width: 400px;
+		margin-top: 5px;
+		margin-bottom: 5;
+		padding: 10;
+		height: 600px;
+	}	
+#translation 
+	{	clear: both;
+		width: 1025;
+		background: lightgray;
+		font-size: 20pt;
+		padding: 10px;
+		margin-top: 5px;
+	}
+	
+/* Tooltip container */
+.tag {
+  border-bottom: 1px dotted gray; 
+  cursor: pointer;
+}
+
+.tag:hover {
+	border-bottom: 2px dashed royalblue;
+	color: royalblue;
+
+</style>
+
+<script>
+
+function showResult(xml) {
+    var txt = "";
+    path = "/bookstore/book/title"
+    if (xml.evaluate) {
+        var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
+        var result = nodes.iterateNext();
+        while (result) {
+            txt += result.childNodes[0].nodeValue + "<br>";
+            result = nodes.iterateNext();
+        } 
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+
+// function setup runs with body onLoad event
+function setup() {
+
+//get all the elements with same class name
+// iterate it using array#forEach menthod
+document.querySelectorAll('.tag').forEach(function(item) {
+  // add event to each of the element
+  item.addEventListener('mouseover', function(e) {
+  	document.getElementById('tagview').innerHTML=lexicon[this.dataset.lexiconid];
+  })
+});
+return true;
+
+} // end of setup()
+
+</script>
+
+<body onLoad="setup()">
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        showResult(xhttp.responseXML);
+    }
+};
+xhttp.open("GET", "lexicon.xml", true);
+xhttp.send(); 
+</script>
+<div id="headline">Ukrainian Reader</div>
+<div id="maintext">
+Що<span class="tagpoo" data-lexiconid="1">дня</span> я прокидаюсь рівно <span class="tag" data-lexiconid="2">о</span> 4.45. Декілька секунд я просто дивлюся <span class="tag" data-lexiconid="3">в</span> стел<span class="tag" data-lexiconid="4">ю</span> і згадую хто я і де. <span class="tag" data-lexiconid="5">Мене</span> звати Оксана. Просто Оксана. Я лежу <span class="tag" data-lexiconid="6">на</span> п'ять<span class="tag" data-lexiconid="7">ох</span> стільц<span class="tag" data-lexiconid="7">ях</span>, котрі стоять <span class="tag" data-lexiconid="3">під</span> стін<span class="tag" data-lexiconid="4">ою</span>. Твердо, але якби не підстелений коц і старий светер під головою – було б іще гірше. А так – може бути. Майже нічого не видно, бо світло, яке проникає через шпарину в дверях, освітлює тільки вузьку смужку стіни. В стіні – цвях. На цвяху – одяг. Все, час вставати. Раз – скинула коц, два – сіла на стілець, три – встала. Води – пів мидниці, за ніч вона охолола, але так мабуть краще. Одною рукою вмиваюся, другою – зачісуюсь. Волосся – в косичку. Щодня, рівно о 5.15 я виходжу з дому і починаю працювати. В мене в руках карта, зошит і олівець. На голові – ліхтар, схожий на шахтарський. Я – інспектор дорожніх знаків. За 1 годину 45 хвилин я повинна перевірити, чи за ніч нічого не сталося зі знаками, розміткою і світлофорами на моїй ділянці. Часу мало – роботи багато. Треба бути дуже уважною. Так. 5.3 «Дорога для автомобілів» – ОК. 5.4 «Кінець дороги для автомобілів» – все правильно. Ставлю галочку в зошиті. Йдемо далі.
+
+<p><i>Adapted from: Дзвінка Матіяш, Сьома зміна</i></p>
+</div>
+<div id="tagview">
+
+
+<span style="display: none">а́, е́, и́, о́, у́, ы́, э́, ю́, я́</span>
+</div>
+<div id="translation">
+Щодня - every day
+</div>
+</body>
+</html>
