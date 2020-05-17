@@ -82,8 +82,8 @@ function showLexiconEntry(id,caseid) {
     	let cases=entry['cases'];
     	let arrayLength = cases.length;
 		for(let i = 0 ; i < arrayLength; i++) { 
-   			let case = cases[i];
-   			txt += "<li>"+case['casetext']+"</li>";
+   			let thiscase = cases[i];
+   			txt += "<li>"+thiscase['casetext']+"</li>";
 		}
     	txt += "</ul>";
     }
