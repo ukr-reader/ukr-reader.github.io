@@ -93,6 +93,7 @@ function triggerRequest() {
 	xhttp.send();
 	xhttp.onload=function() {
 		lexResponse=xhttp.response;
+		console.log(lexResponse);
 		const lexicon=lexResponse['infopanels'];
 		setup();
 	}	
