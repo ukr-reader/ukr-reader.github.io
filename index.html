@@ -50,7 +50,7 @@ body {	font-family: 'Literata';
 	}
 
 .currentcase {
-	font-color: royalblue;
+		color: royalblue;
 	}
 	
 #tagview td
@@ -111,8 +111,6 @@ function showLexiconEntry(id,caseid) {
 }
 
 function highlightAll(id) {
-	console.log('Highlighting:',id);
-	console.log(lexicon['id:'+id]);
 	document.querySelectorAll('.tag').forEach(function(el) {
 		el.style.borderBottom="1px dotted gray";
 		el.style.color="black";
@@ -131,7 +129,6 @@ function triggerRequest() {
 	req.responseType='json';
 	req.onload=function() {
 		var lexResponse=req.response;
-		console.log(lexResponse);
 		lexicon=lexResponse['infopanels'];
 		setup();
 	}	

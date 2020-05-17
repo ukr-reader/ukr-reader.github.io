@@ -1,5 +1,21 @@
 {
 	"infopanels" : {
+	
+		"id:welcome" : {
+			"head": "Ласкаво просимо! Welcome!",
+			"body": "Move the mouse over <span class=\"tag\" data-lexiconid="welcome" data-caseid=\"1\">marked words</span> in the text and the grammar will be displayed here.",
+			"cases" : [
+				{
+					"caseid": "0",
+					"casetext": "Typical uses will be listed here" 
+				},
+				{
+					"caseid": "1",
+					"casetext": "The relevant use will be coloured blue like this"
+				}
+			]
+		},
+		
 		"id:notes" : {
 			"head": "Useful notes",
 			"body": "1x Nominative; 2x Genitive; 3x Accusative; 5x Locative; 6x Genitive; 7x Vocative",
@@ -57,6 +73,10 @@
 				{
 					"caseid": "1",
 					"casetext": "acc pronoun + звати - to be called"
+				},
+				{
+					"caseid": "2",
+					"casetext": "в/у + acc pronoun + є - to have"
 				}
 			]	
 		},
@@ -68,7 +88,7 @@
 			"cases" : [
 				{
 					"caseid": "0",
-					"casetext": "в - in, at" 
+					"casetext": "в/у - in, at" 
 				},
 			
 				{
@@ -84,12 +104,12 @@
 			"cases" : [
 				{
 					"caseid": "0",
-					"casetext": "na - on" 
+					"casetext": "на - on" 
 				},
 			
 				{
 					"caseid": "1",
-					"casetext": "b/y at places"
+					"casetext": "в/у - at (place)"
 				}
 			]
 		},
@@ -115,11 +135,11 @@
 			"cases" : [
 				{
 					"caseid": "0",
-					"casetext": "<i>example</i>" 
+					"casetext": "* after preposition: нього, неї, них" 
 				},
 				{
 					"caseid": "1",
-					"casetext": "* after preposition: нього, неї, них"
+					"casetext": "<i>(another situation)</i>"
 				}
 			]	
 		}
