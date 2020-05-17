@@ -101,7 +101,7 @@ function highlightAll(id) {
 function triggerRequest() {
 	let xhttp = new XMLHttpRequest();
 	let requestURL="lexicon.json";
-	let xhttp.open('GET',requestURL);
+	xhttp.open('GET',requestURL);
 	xhttp.responseType='json';
 	xhttp.send();
 	xhttp.onload=function() {
