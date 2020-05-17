@@ -40,7 +40,7 @@
 					"casetext": "simple direct object" 
 				},
 				{
-					"caseid": "1",
+					"caseid": "prep",
 					"casetext": "preposition + accusative"
 				}
 			]
@@ -55,7 +55,7 @@
 					"casetext": "simple direct object" 
 				},
 				{
-					"caseid": "1",
+					"caseid": "prep",
 					"casetext": "preposition + accusative"
 				}
 			]
@@ -130,7 +130,7 @@
 		},
 		
 		"id:GenPers" : {
-			"head": "accusative personal pronoun",
+			"head": "genitive personal pronoun",
 			"body": "<table><tr><td>я</td><td>мене</td></tr> <tr><td>ти</td><td>тебе</td></tr> <tr><td>він / воно</td><td>його *</td></tr> <tr><td>вона</td><td>її *</td></tr> <tr><td>ми</td><td>нас</td></tr> <tr><td>ви</td><td>вас</td></tr> <tr><td>вони *</td><td>їх</td></tr></table>",
 			"cases" : [
 				{
