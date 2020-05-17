@@ -83,19 +83,19 @@ function highlightAll(id) {
 	});
 }
 
-// function triggerRequest() runs with body onLoad event
+// function triggerRequest() runs from body onLoad event
 function triggerRequest() {
-	xhttp = new XMLHttpRequest();
+	let req = new XMLHttpRequest();
 	let requestURL="https://ukr-reader.github.io/lexicon2.json";
-	xhttp.open('GET',requestURL,true);
-	xhttp.responseType='json';
-	xhttp.send();
-	xhttp.onreadystatechange=function() {
-		lexResponse=xhttp.response;
+	req.open('GET',requestURL,true);
+	req.responseType='json';
+	req.onload=function() {
+		var lexResponse=req.response;
 		console.log(lexResponse);
 		const lexicon=lexResponse['infopanels'];
 		setup();
 	}	
+	req.send(null);
 }
 
 function setup() {
