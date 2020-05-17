@@ -66,7 +66,14 @@ body {	font-family: 'Literata';
 var lexicon;
 
 function showLexiconEntry(id,caseid) {
-    var txt="Temporary text: "+id+":"+caseid;
+	var entry=lexicon['id'+id];
+    var txt="<h3>"+entry['head']+"</h3>";
+    txt += entry['body'];
+    if (entry['cases']) {
+    	txt += "<ul>";
+    	txt += "<li>There are cases</li>";
+    	txt += "</ul>";
+    }
     document.getElementById("tagview").innerHTML = txt;
 }
 
