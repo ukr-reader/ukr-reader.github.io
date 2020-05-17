@@ -63,8 +63,7 @@ body {	font-family: 'Literata';
 </style>
 
 <script>
-
-
+var lexicon;
 
 function lexiconDetail(id) {
     var txt="Temporary text: "+id;
@@ -86,14 +85,14 @@ function highlightAll(id) {
 
 // function triggerRequest() runs from body onLoad event
 function triggerRequest() {
-	let req = new XMLHttpRequest();
-	let requestURL="https://ukr-reader.github.io/lexicon2.json";
+	var req = new XMLHttpRequest();
+	var requestURL="https://ukr-reader.github.io/lexicon2.json";
 	req.open('GET',requestURL,true);
 	req.responseType='json';
 	req.onload=function() {
 		var lexResponse=req.response;
 		console.log(lexResponse);
-		const lexicon=lexResponse['infopanels'];
+		lexicon=lexResponse['infopanels'];
 		setup();
 	}	
 	req.send(null);
