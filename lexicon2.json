@@ -1,21 +1,21 @@
 {
 	"infopanels" : {
-		"id0" : {
-			"head": "dummy header",
-			"body": "dummy body",
+		"id:notes" : {
+			"head": "Useful notes",
+			"body": "1x Nominative; 2x Genitive; 3x Accusative; 5x Locative; 6x Genitive; 7x Vocative",
 			"cases" : [
 				{
 					"caseid": 0,
-					"casetext": "dummy case 1" 
+					"casetext": "x1 noun end; x2 adj end; x3 personal pronoun; x4 preposition+" 
 				},
 				{
 					"caseid": 1,
-					"casetext": "dummy case 2"
+					"casetext": "AccNoun AccAdj AccPers AccPrep"
 				}
 			]
 		},
 	
-		"id1": {
+		"id:AccNoun": {
 			"head": "accusative ending (noun)",
 			"body": "<table><thead><tr><td>Masc</td><td>Fem</td><td>Neut</td></tr></thead><tbody><tr><td>o -> a</td><td>a -> y</td><td>no changes</td></tr></tbody></table>",
 			"cases" : [
@@ -30,7 +30,7 @@
 			]
 		},
 	
-		"id2": {
+		"idAccAdj": {
 			"head": "accusative ending (adjective)",
 			"body": "info 2",
 			"cases" : [
@@ -46,7 +46,7 @@
 		},
 	
 
-		"id3" : {
+		"idAccPers" : {
 			"head": "accusative personal pronoun",
 			"body": "info 3",
 			"cases" : [
@@ -62,7 +62,7 @@
 		},
 	
 		
-		"id4":  {
+		"idAccPrep":  {
 			"head": "preposition (+ accusative)",
 			"body": "info 4",
 			"cases" : [
@@ -78,52 +78,55 @@
 			]
 		},
 	
-		"id5": {
-			"head": "preposition (+ accusative)",
+		"idLocPrep": {
+			"head": "preposition (+ preposition)",
 			"body": "info 5",
 			"cases" : [
 				{
 					"caseid": 0,
-					"casetext": "в - in, at" 
+					"casetext": "na - on" 
 				},
 			
 				{
 					"caseid": 1,
-					"casetext": "під - under"
+					"casetext": "no idea"
 				}
 			]
 		},
-	
-		"id7": {
-			"head": "preposition (+ accusative)",
-			"body": "info 7",
+
+		"id:LocNoun": {
+			"head": "Locative ending (noun)",
+			"body": "<table><thead><tr><td>Masc</td><td>Fem</td><td>Neut</td></tr></thead><tbody><tr><td>o -> a</td><td>a -> y</td><td>no changes</td></tr></tbody></table>",
 			"cases" : [
 				{
 					"caseid": 0,
-					"casetext": "в - in, at" 
+					"casetext": "simple direct object" 
 				},
-			
 				{
 					"caseid": 1,
-					"casetext": "під - under"
+					"casetext": "preposition + accusative"
 				}
 			]
 		},
 	
-		"id99": {
+		"idLocAdj": {
+			"head": "loctive ending (adjective)",
+			"body": "info 2",
+			"cases" : [
+				{
+					"caseid": 0,
+					"casetext": "simple direct object" 
+				},
+				{
+					"caseid": 1,
+					"casetext": "preposition + accusative"
+				}
+			]
+		},
+		
+		"idGenTime": {
 			"head": "o (+ genitive) - at (time)",
 			"body": "info 99",
-			"cases" : [
-				{
-					"caseid": 0,
-					"casetext": "в - in, at" 
-				},
-			
-				{
-					"caseid": 1,
-					"casetext": "під - under"
-				}
-			]
 		}
 
 
