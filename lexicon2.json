@@ -3,7 +3,7 @@
 	
 		"id:welcome" : {
 			"head": "Ласкаво просимо! Welcome!",
-			"body": "Move the mouse over <span class=\"tag\" data-lexiconid=\"welcome\" data-caseid=\"1\">marked words</span> in the text and the grammar will be displayed here.",
+			"body": "Move the mouse over <span class=\"tag\" data-lexiconid=\"welcome\" data-caseid=\"1\">marked words</span> in the text and the grammar will be displayed here.<p>All similar words will be highlighted.",
 			"cases" : [
 				{
 					"caseid": "0",
