@@ -105,7 +105,7 @@ document.querySelectorAll('.tag').forEach(function(item) {
   // add event to each of the element
   item.addEventListener('mouseover', function(e) {
   	highlightAll(this.dataset.lexiconid);
-  	document.getElementById('tagview').innerHTML=lexiconDetail(this.dataset.lexiconid,this.dataset.caseid]);
+  	document.getElementById('tagview').innerHTML=lexiconDetail(this.dataset.lexiconid,this.dataset.caseid);
   })
 });
 return true;
