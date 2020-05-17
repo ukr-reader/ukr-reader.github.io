@@ -105,7 +105,8 @@ function triggerRequest() {
 	xhttp.responseType='json';
 	xhttp.send();
 	xhttp.onload=function() {
-		lexicon=xhttp.response;
+		lexResponse=xhttp.response;
+		const lexicon=lexResponse['infopanels'];
 		setup();
 	}	
 }
@@ -127,7 +128,7 @@ return true;
 </script>
 
 <body onLoad="triggerRequest()">
-<div id="headline">Ukrainian Reader with favicon</div>
+<div id="headline">Ukrainian Reader</div>
 <div id="maintext">
 Щодня я прокидаюсь рівно <span class="tag" data-lexiconid="99" data-lexiconcase="1">о</span> 4.45. Декілька секунд я просто дивлюся <span class="tag" data-lexiconid="4">в</span> стел<span class="tag" data-lexiconid="4">ю</span> і згадую хто я і де. <span class="tag" data-lexiconid="5">Мене</span> звати Оксана. Просто Оксана. Я лежу <span class="tag" data-lexiconid="6">на</span> п'ять<span class="tag" data-lexiconid="7">ох</span> стільц<span class="tag" data-lexiconid="7">ях</span>, котрі стоять <span class="tag" data-lexiconid="3">під</span> стін<span class="tag" data-lexiconid="4">ою</span>. Твердо, але якби не підстелений коц і старий светер під головою – було б іще гірше. А так – може бути. Майже нічого не видно, бо світло, яке проникає через шпарину в дверях, освітлює тільки вузьку смужку стіни. В стіні – цвях. На цвяху – одяг. Все, час вставати. Раз – скинула коц, два – сіла на стілець, три – встала. Води – пів мидниці, за ніч вона охолола, але так мабуть краще. Одною рукою вмиваюся, другою – зачісуюсь. Волосся – в косичку. Щодня, рівно о 5.15 я виходжу з дому і починаю працювати. В мене в руках карта, зошит і олівець. На голові – ліхтар, схожий на шахтарський. Я – інспектор дорожніх знаків. За 1 годину 45 хвилин я повинна перевірити, чи за ніч нічого не сталося зі знаками, розміткою і світлофорами на моїй ділянці. Часу мало – роботи багато. Треба бути дуже уважною. Так. 5.3 «Дорога для автомобілів» – ОК. 5.4 «Кінець дороги для автомобілів» – все правильно. Ставлю галочку в зошиті. Йдемо далі.
 

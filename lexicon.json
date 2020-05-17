@@ -1,17 +1,26 @@
-[
+{
+	"infopanels" : [
+	{
+		"id": 0,
+		"head": "dummy header",
+		"body": "dummy body",
+		"cases" : [
+			{
+				"caseid": 1,
+				"casetext": "dummy case 1" 
+			},
+			
+			{
+				"caseid": 2,
+				"casetext": "dummy case 2"
+			}
+		]
+	},
+	
 	{
 		"id": 1,
 		"head": "accusative ending (noun)",
-		"body": " 
-			<table>
-			<thead>
-			<tr><td>Masc</td><td>Fem</td><td>Neut</td></tr>
-			</thead>
-			<tbody>
-			<tr><td>o -> a</td><td>a -> y</td><td>no changes</td></tr>
-			</tbody>
-			</table>
-			",
+		"body": "<table><thead><tr><td>Masc</td><td>Fem</td><td>Neut</td></tr></thead><tbody><tr><td>o -> a</td><td>a -> y</td><td>no changes</td></tr></tbody></table>",
 		"cases" : [
 			{
 				"caseid": 1,
@@ -28,16 +37,7 @@
 	{	
 		"id": 2,
 		"head": "accusative ending (adjective)",
-		"body": " 
-			<table>
-			<thead>
-			<tr><td>Masc</td><td>Fem</td><td>Neut</td></tr>
-			</thead>
-			<tbody>
-			<tr><td>o -> a</td><td>a -> y</td><td>no changes</td></tr>
-			</tbody>
-			</table>
-			",
+		"body": "info 2",
 		"cases" : [
 			{
 				"caseid": 1,
@@ -54,16 +54,7 @@
 	{
 		"id": 3,
 		"head": "accusative personal pronoun",
-		"body": " 
-			<table>
-			<thead>
-			<tr><td>mene</td><td>tebe</td><td> </td></tr>
-			</thead>
-			<tbody>
-			<tr><td>o -> a</td><td>a -> y</td><td>no changes</td></tr>
-			</tbody>
-			</table>
-			",
+		"body": "info 3",
 		"cases" : [
 			{
 				"caseid": 1,
@@ -80,9 +71,7 @@
 	{
 		"id": 4,
 		"head": "preposition (+ accusative)",
-		"body": " 
-			
-			",
+		"body": "info 4",
 		"cases" : [
 			{
 				"caseid": 1,
@@ -99,9 +88,7 @@
 	{
 		"id": 5,
 		"head": "preposition (+ accusative)",
-		"body": " 
-			
-			",
+		"body": "info 5",
 		"cases" : [
 			{
 				"caseid": 1,
@@ -119,9 +106,7 @@
 	{
 		"id": 6,
 		"head": "preposition (+ accusative)",
-		"body": " 
-			
-			",
+		"body": "info 6",
 		"cases" : [
 			{
 				"caseid": 1,
@@ -139,9 +124,7 @@
 	{
 		"id": 99,
 		"head": "o (+ genitive) - at (time)",
-		"body": " 
-			
-			",
+		"body": "info 99",
 		"cases" : [
 			{
 				"caseid": 1,
@@ -156,4 +139,5 @@
 
 	}
 
-]
+	]
+}
