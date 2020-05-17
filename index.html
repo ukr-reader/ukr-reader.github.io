@@ -65,8 +65,8 @@ body {	font-family: 'Literata';
 <script>
 var lexicon;
 
-function lexiconDetail(id) {
-    var txt="Temporary text: "+id;
+function lexiconDetail(id,case) {
+    var txt="Temporary text: "+id+":"+case;
     document.getElementById("tagview").innerHTML = txt;
 }
 
@@ -105,7 +105,7 @@ document.querySelectorAll('.tag').forEach(function(item) {
   // add event to each of the element
   item.addEventListener('mouseover', function(e) {
   	highlightAll(this.dataset.lexiconid);
-  	//document.getElementById('tagview').innerHTML=lexiconDetail(this.dataset.lexiconid]);
+  	document.getElementById('tagview').innerHTML=lexiconDetail(this.dataset.lexiconid,this.dataset.case]);
   })
 });
 return true;
@@ -122,7 +122,7 @@ return true;
 <p><i>Adapted from: Дзвінка Матіяш, Сьома зміна</i></p>
 </div>
 <div id="tagview">
-
+<h3>Welcome!</h3>
 
 <span style="display: none">а́, е́, и́, о́, у́, ы́, э́, ю́, я́</span>
 </div>
