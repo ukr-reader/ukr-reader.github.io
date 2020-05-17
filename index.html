@@ -79,7 +79,12 @@ function showLexiconEntry(id,caseid) {
     txt += entry['body'];
     if (entry['cases']) {
     	txt += "<ul>";
-    	txt += "<li>There are cases</li>";
+    	let cases=entry['cases'];
+    	let arrayLength = cases.length;
+		for(let i = 0 ; i < arrayLength; i++) { 
+   			let case = cases[i];
+   			txt += "<li>"+case['casetext']+"</li>";
+		}
     	txt += "</ul>";
     }
     document.getElementById("tagview").innerHTML = txt;

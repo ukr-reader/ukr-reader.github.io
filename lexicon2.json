@@ -17,7 +17,7 @@
 	
 		"id:AccNoun": {
 			"head": "accusative ending (noun)",
-			"body": "<table><thead><tr><td>Masc</td><td>Fem</td><td>Neut</td></tr></thead><tbody><tr><td>o -> a</td><td>a -> y</td><td>no changes</td></tr></tbody></table>",
+			"body": "<i>table of endings:</i><br><table><thead><tr><td>Masc</td><td>Fem</td><td>Neut</td></tr></thead><tbody><tr><td>o -> a</td><td>a -> y</td><td>no changes</td></tr></tbody></table>",
 			"cases" : [
 				{
 					"caseid": 0,
@@ -32,7 +32,7 @@
 	
 		"id:AccAdj": {
 			"head": "accusative ending (adjective)",
-			"body": "info 2",
+			"body": "<i>(description needed)</i>",
 			"cases" : [
 				{
 					"caseid": 0,
@@ -48,15 +48,15 @@
 
 		"id:AccPers" : {
 			"head": "accusative personal pronoun",
-			"body": "info 3",
+			"body": "<i>(description needed)</i>",
 			"cases" : [
 				{
 					"caseid": 0,
-					"casetext": "simple direct object" 
+					"casetext": "acc pronoun + zbaty - to be called" 
 				},
 				{
 					"caseid": 1,
-					"casetext": "preposition + accusative"
+					"casetext": "<i>another example</i>"
 				}
 			]	
 		},
@@ -64,7 +64,7 @@
 		
 		"id:AccPrep":  {
 			"head": "preposition (+ accusative)",
-			"body": "info 4",
+			"body": "<i>(description needed)</i>",
 			"cases" : [
 				{
 					"caseid": 0,
@@ -80,7 +80,7 @@
 	
 		"id:LocPrep": {
 			"head": "preposition (+ locative)",
-			"body": "info 5",
+			"body": "<i>(description needed)</i>",
 			"cases" : [
 				{
 					"caseid": 0,
@@ -89,44 +89,24 @@
 			
 				{
 					"caseid": 1,
-					"casetext": "no idea"
+					"casetext": "b/y at places"
 				}
 			]
 		},
 
 		"id:LocNoun": {
 			"head": "Locative ending (noun)",
-			"body": "<table><thead><tr><td>Masc</td><td>Fem</td><td>Neut</td></tr></thead><tbody><tr><td>o -> a</td><td>a -> y</td><td>no changes</td></tr></tbody></table>",
-			"cases" : [
-				{
-					"caseid": 0,
-					"casetext": "simple direct object" 
-				},
-				{
-					"caseid": 1,
-					"casetext": "preposition + accusative"
-				}
-			]
+			"body": "<i>table of endings:</i><br><table><thead><tr><td>Masc</td><td>Fem</td><td>Neut</td></tr></thead><tbody><tr><td>o -> a</td><td>a -> y</td><td>no changes</td></tr></tbody></table>"
 		},
 	
 		"id:LocAdj": {
 			"head": "loctive ending (adjective)",
-			"body": "info 2",
-			"cases" : [
-				{
-					"caseid": 0,
-					"casetext": "simple direct object" 
-				},
-				{
-					"caseid": 1,
-					"casetext": "preposition + accusative"
-				}
-			]
+			"body": "<i>(description needed)</i>"
 		},
 		
 		"id:GenTime": {
 			"head": "o (+ genitive) - at (time)",
-			"body": "info 99"
+			"body": "<i>(description needed)</i>"
 		}
 
 
