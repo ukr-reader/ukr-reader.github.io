@@ -11,7 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Literata:wght@400&display=swap');
 
 body {	font-family: 'Literata';
-		font-size:	16pt;
+		font-size:	14px;
 		line-height: 1.7;
 	}
 
@@ -31,6 +31,7 @@ body {	font-family: 'Literata';
 		padding: 10;
 		height: 600px;
 		overflow: auto;
+		font-size: 16pt;
 	}
 #tagview
 	{	float: left;
@@ -41,20 +42,22 @@ body {	font-family: 'Literata';
 		margin-bottom: 5;
 		padding: 10;
 		height: 600px;
-		font-size: 14pt;
+		font-size: 14px;
 	}
 #tagview ul
 	{ 
-		font-size: 14pt;
+		font-size: 14px;
 	}
 	
 #tagview td
 	{
-		border-right: solid 5px transparent;
+		border-right: solid 10px transparent;
+		font-size: 14px;
 	}	
 
-#tagview h3 {
+#tagview h2 {
 		margin-block-start: 0px;
+		border-bottom: 1px solid gray;
 	}	
 	
 #translation 
@@ -84,7 +87,7 @@ var lexicon;
 
 function showLexiconEntry(id,caseid) {
 	var entry=lexicon['id:'+id];
-    var txt="<h3>"+entry['head']+"</h3>";
+    var txt="<h2>"+entry['head']+"</h2>";
     txt += entry['body'];
     if (entry['cases']) {
     	txt += "<ul>";
@@ -151,7 +154,7 @@ return true;
 <p><i>Adapted from: Дзвінка Матіяш, Сьома зміна</i></p>
 </div>
 <div id="tagview">
-<h3>Welcome!</h3>
+<h2>Welcome!</h2>
 
 <span style="display: none">а́, е́, и́, о́, у́, ы́, э́, ю́, я́</span>
 </div>
