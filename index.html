@@ -87,10 +87,10 @@ function highlightAll(id) {
 function triggerRequest() {
 	let xhttp = new XMLHttpRequest();
 	let requestURL="https://ukr-reader.github.io/lexicon.json";
-	xhttp.open('GET',requestURL);
+	xhttp.open('GET',requestURL,true);
 	xhttp.responseType='json';
 	xhttp.send();
-	xhttp.onload=function() {
+	xhttp.onreadystatechange=function() {
 		lexResponse=xhttp.response;
 		console.log(lexResponse);
 		const lexicon=lexResponse['infopanels'];
