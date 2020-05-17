@@ -66,17 +66,8 @@ body {	font-family: 'Literata';
 
 
 
-function showResult(xml) {
-    var txt = "";
-    path = "/lexicon/lexitem[1]/head"
-    if (xml.evaluate) {
-        var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
-        var result = nodes.iterateNext();
-        while (result) {
-            txt += result.childNodes[0].nodeValue + "<br>";
-            result = nodes.iterateNext();
-        } 
-    }
+function lexiconDetail(id) {
+    var txt="Temporary text: "+id;
     document.getElementById("tagview").innerHTML = txt;
 }
 
@@ -90,10 +81,6 @@ function highlightAll(id) {
 		el.style.borderBottom="2px dashed royalblue";
 		el.style.color="royalblue";
 	});
-	xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        showResult(xhttp.responseXML);
-    }
 };
 }
 
