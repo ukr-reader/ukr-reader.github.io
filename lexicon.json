@@ -1,0 +1,159 @@
+[
+	{
+		"id": 1,
+		"head": "accusative ending (noun)",
+		"body": " 
+			<table>
+			<thead>
+			<tr><td>Masc</td><td>Fem</td><td>Neut</td></tr>
+			</thead>
+			<tbody>
+			<tr><td>o -> a</td><td>a -> y</td><td>no changes</td></tr>
+			</tbody>
+			</table>
+			",
+		"cases" : [
+			{
+				"caseid": 1,
+				"casetext": "simple direct object" 
+			},
+			
+			{
+				"caseid": 2,
+				"casetext": "preposition + accusative"
+			}
+		]
+	},
+
+	{	
+		"id": 2,
+		"head": "accusative ending (adjective)",
+		"body": " 
+			<table>
+			<thead>
+			<tr><td>Masc</td><td>Fem</td><td>Neut</td></tr>
+			</thead>
+			<tbody>
+			<tr><td>o -> a</td><td>a -> y</td><td>no changes</td></tr>
+			</tbody>
+			</table>
+			",
+		"cases" : [
+			{
+				"caseid": 1,
+				"casetext": "simple direct object" 
+			},
+			
+			{
+				"caseid": 2,
+				"casetext": "preposition + accusative"
+			}
+		]
+	},
+	
+	{
+		"id": 3,
+		"head": "accusative personal pronoun",
+		"body": " 
+			<table>
+			<thead>
+			<tr><td>mene</td><td>tebe</td><td> </td></tr>
+			</thead>
+			<tbody>
+			<tr><td>o -> a</td><td>a -> y</td><td>no changes</td></tr>
+			</tbody>
+			</table>
+			",
+		"cases" : [
+			{
+				"caseid": 1,
+				"casetext": "simple direct object" 
+			},
+			
+			{
+				"caseid": 2,
+				"casetext": "preposition + accusative"
+			}
+		]	
+	},
+	
+	{
+		"id": 4,
+		"head": "preposition (+ accusative)",
+		"body": " 
+			
+			",
+		"cases" : [
+			{
+				"caseid": 1,
+				"casetext": "в - in, at" 
+			},
+			
+			{
+				"caseid": 2,
+				"casetext": "під - under"
+			}
+		]
+	},
+	
+	{
+		"id": 5,
+		"head": "preposition (+ accusative)",
+		"body": " 
+			
+			",
+		"cases" : [
+			{
+				"caseid": 1,
+				"casetext": "в - in, at" 
+			},
+			
+			{
+				"caseid": 2,
+				"casetext": "під - under"
+			}
+		]
+
+	},
+	
+	{
+		"id": 6,
+		"head": "preposition (+ accusative)",
+		"body": " 
+			
+			",
+		"cases" : [
+			{
+				"caseid": 1,
+				"casetext": "в - in, at" 
+			},
+			
+			{
+				"caseid": 2,
+				"casetext": "під - under"
+			}
+		]
+
+	},
+	
+	{
+		"id": 99,
+		"head": "o (+ genitive) - at (time)",
+		"body": " 
+			
+			",
+		"cases" : [
+			{
+				"caseid": 1,
+				"casetext": "в - in, at" 
+			},
+			
+			{
+				"caseid": 2,
+				"casetext": "під - under"
+			}
+		]
+
+	}
+
+]
