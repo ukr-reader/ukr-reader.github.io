@@ -30,7 +30,7 @@
 			]
 		},
 	
-		"idAccAdj": {
+		"id:AccAdj": {
 			"head": "accusative ending (adjective)",
 			"body": "info 2",
 			"cases" : [
@@ -46,7 +46,7 @@
 		},
 	
 
-		"idAccPers" : {
+		"id:AccPers" : {
 			"head": "accusative personal pronoun",
 			"body": "info 3",
 			"cases" : [
@@ -62,7 +62,7 @@
 		},
 	
 		
-		"idAccPrep":  {
+		"id:AccPrep":  {
 			"head": "preposition (+ accusative)",
 			"body": "info 4",
 			"cases" : [
@@ -78,8 +78,8 @@
 			]
 		},
 	
-		"idLocPrep": {
-			"head": "preposition (+ preposition)",
+		"id:LocPrep": {
+			"head": "preposition (+ locative)",
 			"body": "info 5",
 			"cases" : [
 				{
@@ -109,7 +109,7 @@
 			]
 		},
 	
-		"idLocAdj": {
+		"id:LocAdj": {
 			"head": "loctive ending (adjective)",
 			"body": "info 2",
 			"cases" : [
@@ -124,7 +124,7 @@
 			]
 		},
 		
-		"idGenTime": {
+		"id:GenTime": {
 			"head": "o (+ genitive) - at (time)",
 			"body": "info 99"
 		}

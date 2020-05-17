@@ -74,7 +74,7 @@ body {	font-family: 'Literata';
 var lexicon;
 
 function showLexiconEntry(id,caseid) {
-	var entry=lexicon['id'+id];
+	var entry=lexicon['id:'+id];
     var txt="<h3>"+entry['head']+"</h3>";
     txt += entry['body'];
     if (entry['cases']) {
