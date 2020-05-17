@@ -67,7 +67,7 @@
 			"body": "<table><tr><td>я</td><td>мене</td></tr> <tr><td>ти</td><td>тебе</td></tr> <tr><td>він / воно</td><td>його *</td></tr> <tr><td>вона</td><td>її *</td></tr> <tr><td>ми</td><td>нас</td></tr> <tr><td>ви</td><td>вас</td></tr> <tr><td>вони *</td><td>їх</td></tr></table>",
 			"cases" : [
 				{
-					"caseid": "afterprep",
+					"caseid": "prep",
 					"casetext": "* after preposition: нього, неї, них" 
 				},
 				{
@@ -75,7 +75,7 @@
 					"casetext": "acc pronoun + звати - to be called"
 				},
 				{
-					"caseid": "в/у",
+					"caseid": "є",
 					"casetext": "в/у + acc pronoun + є - to have"
 				}
 			]	
@@ -134,7 +134,7 @@
 			"body": "<table><tr><td>я</td><td>мене</td></tr> <tr><td>ти</td><td>тебе</td></tr> <tr><td>він / воно</td><td>його *</td></tr> <tr><td>вона</td><td>її *</td></tr> <tr><td>ми</td><td>нас</td></tr> <tr><td>ви</td><td>вас</td></tr> <tr><td>вони *</td><td>їх</td></tr></table>",
 			"cases" : [
 				{
-					"caseid": "aferprep",
+					"caseid": "prep",
 					"casetext": "* after preposition: нього, неї, них" 
 				},
 				{
