@@ -1,0 +1,131 @@
+{
+	"infopanels" : {
+		"id0" : {
+			"head": "dummy header",
+			"body": "dummy body",
+			"cases" : [
+				{
+					"caseid": 0,
+					"casetext": "dummy case 1" 
+				},
+				{
+					"caseid": 1,
+					"casetext": "dummy case 2"
+				}
+			]
+		},
+	
+		"id1": {
+			"head": "accusative ending (noun)",
+			"body": "<table><thead><tr><td>Masc</td><td>Fem</td><td>Neut</td></tr></thead><tbody><tr><td>o -> a</td><td>a -> y</td><td>no changes</td></tr></tbody></table>",
+			"cases" : [
+				{
+					"caseid": 0,
+					"casetext": "simple direct object" 
+				},
+				{
+					"caseid": 1,
+					"casetext": "preposition + accusative"
+				}
+			]
+		},
+	
+		"id2": {
+			"head": "accusative ending (adjective)",
+			"body": "info 2",
+			"cases" : [
+				{
+					"caseid": 0,
+					"casetext": "simple direct object" 
+				},
+				{
+					"caseid": 1,
+					"casetext": "preposition + accusative"
+				}
+			]
+		},
+	
+
+		"id3" : {
+			"head": "accusative personal pronoun",
+			"body": "info 3",
+			"cases" : [
+				{
+					"caseid": 0,
+					"casetext": "simple direct object" 
+				},
+				{
+					"caseid": 1,
+					"casetext": "preposition + accusative"
+				}
+			]	
+		},
+	
+		
+		"id4":  {
+			"head": "preposition (+ accusative)",
+			"body": "info 4",
+			"cases" : [
+				{
+					"caseid": 0,
+					"casetext": "в - in, at" 
+				},
+			
+				{
+					"caseid": 1,
+					"casetext": "під - under"
+				}
+			]
+		},
+	
+		"id5": {
+			"head": "preposition (+ accusative)",
+			"body": "info 5",
+			"cases" : [
+				{
+					"caseid": 0,
+					"casetext": "в - in, at" 
+				},
+			
+				{
+					"caseid": 1,
+					"casetext": "під - under"
+				}
+			]
+		},
+	
+		"id7": {
+			"head": "preposition (+ accusative)",
+			"body": "info 7",
+			"cases" : [
+				{
+					"caseid": 0,
+					"casetext": "в - in, at" 
+				},
+			
+				{
+					"caseid": 1,
+					"casetext": "під - under"
+				}
+			]
+		},
+	
+		"id99": {
+			"head": "o (+ genitive) - at (time)",
+			"body": "info 99",
+			"cases" : [
+				{
+					"caseid": 0,
+					"casetext": "в - in, at" 
+				},
+			
+				{
+					"caseid": 1,
+					"casetext": "під - under"
+				}
+			]
+		}
+
+
+	}
+}
