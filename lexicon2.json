@@ -11,7 +11,7 @@
 				},
 				{
 					"caseid": "1",
-					"casetext": "The relevant use will be coloured blue like this"
+					"casetext": "The relevant use will be coloured blue"
 				}
 			]
 		},
@@ -67,15 +67,15 @@
 			"body": "<table><tr><td>я</td><td>мене</td></tr> <tr><td>ти</td><td>тебе</td></tr> <tr><td>він / воно</td><td>його *</td></tr> <tr><td>вона</td><td>її *</td></tr> <tr><td>ми</td><td>нас</td></tr> <tr><td>ви</td><td>вас</td></tr> <tr><td>вони *</td><td>їх</td></tr></table>",
 			"cases" : [
 				{
-					"caseid": "0",
+					"caseid": "afterprep",
 					"casetext": "* after preposition: нього, неї, них" 
 				},
 				{
-					"caseid": "1",
+					"caseid": "звати",
 					"casetext": "acc pronoun + звати - to be called"
 				},
 				{
-					"caseid": "2",
+					"caseid": "в/у",
 					"casetext": "в/у + acc pronoun + є - to have"
 				}
 			]	
@@ -87,12 +87,12 @@
 			"body": "<i>(description needed)</i>",
 			"cases" : [
 				{
-					"caseid": "0",
+					"caseid": "в/у",
 					"casetext": "в/у - in, at" 
 				},
 			
 				{
-					"caseid": "1",
+					"caseid": "під",
 					"casetext": "під - under"
 				}
 			]
@@ -103,12 +103,12 @@
 			"body": "<i>(description needed)</i>",
 			"cases" : [
 				{
-					"caseid": "0",
+					"caseid": "на",
 					"casetext": "на - on" 
 				},
 			
 				{
-					"caseid": "1",
+					"caseid": "в/у",
 					"casetext": "в/у - at (place)"
 				}
 			]
@@ -134,11 +134,11 @@
 			"body": "<table><tr><td>я</td><td>мене</td></tr> <tr><td>ти</td><td>тебе</td></tr> <tr><td>він / воно</td><td>його *</td></tr> <tr><td>вона</td><td>її *</td></tr> <tr><td>ми</td><td>нас</td></tr> <tr><td>ви</td><td>вас</td></tr> <tr><td>вони *</td><td>їх</td></tr></table>",
 			"cases" : [
 				{
-					"caseid": "0",
+					"caseid": "aferprep",
 					"casetext": "* after preposition: нього, неї, них" 
 				},
 				{
-					"caseid": "1",
+					"caseid": "xyz",
 					"casetext": "<i>(another situation)</i>"
 				}
 			]	
