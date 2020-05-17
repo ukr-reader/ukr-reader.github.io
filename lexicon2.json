@@ -5,11 +5,11 @@
 			"body": "1x Nominative; 2x Genitive; 3x Accusative; 5x Locative; 6x Genitive; 7x Vocative",
 			"cases" : [
 				{
-					"caseid": 0,
+					"caseid": "0",
 					"casetext": "x1 noun end; x2 adj end; x3 personal pronoun; x4 preposition+" 
 				},
 				{
-					"caseid": 1,
+					"caseid": "1",
 					"casetext": "AccNoun AccAdj AccPers AccPrep"
 				}
 			]
@@ -20,11 +20,11 @@
 			"body": "<i>table of endings:</i><br><table><thead><tr><td>Masc</td><td>Fem</td><td>Neut</td></tr></thead><tbody><tr><td>o -> a</td><td>a -> y</td><td>no changes</td></tr></tbody></table>",
 			"cases" : [
 				{
-					"caseid": 0,
+					"caseid": "0",
 					"casetext": "simple direct object" 
 				},
 				{
-					"caseid": 1,
+					"caseid": "1",
 					"casetext": "preposition + accusative"
 				}
 			]
@@ -35,11 +35,11 @@
 			"body": "<i>(description needed)</i>",
 			"cases" : [
 				{
-					"caseid": 0,
+					"caseid": "0",
 					"casetext": "simple direct object" 
 				},
 				{
-					"caseid": 1,
+					"caseid": "1",
 					"casetext": "preposition + accusative"
 				}
 			]
@@ -51,12 +51,12 @@
 			"body": "<table><tr><td>я</td><td>мене</td></tr> <tr><td>ти</td><td>тебе</td></tr> <tr><td>він / воно</td><td>його *</td></tr> <tr><td>вона</td><td>її *</td></tr> <tr><td>ми</td><td>нас</td></tr> <tr><td>ви</td><td>вас</td></tr> <tr><td>вони *</td><td>їх</td></tr></table>",
 			"cases" : [
 				{
-					"caseid": 0,
-					"casetext": "acc pronoun + звати - to be called" 
+					"caseid": "0",
+					"casetext": "* after preposition: нього, неї, них" 
 				},
 				{
-					"caseid": 1,
-					"casetext": "* after preposition: нього, неї, них"
+					"caseid": "1",
+					"casetext": "acc pronoun + звати - to be called"
 				}
 			]	
 		},
@@ -67,12 +67,12 @@
 			"body": "<i>(description needed)</i>",
 			"cases" : [
 				{
-					"caseid": 0,
+					"caseid": "0",
 					"casetext": "в - in, at" 
 				},
 			
 				{
-					"caseid": 1,
+					"caseid": "1",
 					"casetext": "під - under"
 				}
 			]
@@ -83,12 +83,12 @@
 			"body": "<i>(description needed)</i>",
 			"cases" : [
 				{
-					"caseid": 0,
+					"caseid": "0",
 					"casetext": "na - on" 
 				},
 			
 				{
-					"caseid": 1,
+					"caseid": "1",
 					"casetext": "b/y at places"
 				}
 			]
@@ -114,11 +114,11 @@
 			"body": "<table><tr><td>я</td><td>мене</td></tr> <tr><td>ти</td><td>тебе</td></tr> <tr><td>він / воно</td><td>його *</td></tr> <tr><td>вона</td><td>її *</td></tr> <tr><td>ми</td><td>нас</td></tr> <tr><td>ви</td><td>вас</td></tr> <tr><td>вони *</td><td>їх</td></tr></table>",
 			"cases" : [
 				{
-					"caseid": 0,
+					"caseid": "0",
 					"casetext": "<i>example</i>" 
 				},
 				{
-					"caseid": 1,
+					"caseid": "1",
 					"casetext": "* after preposition: нього, неї, них"
 				}
 			]	

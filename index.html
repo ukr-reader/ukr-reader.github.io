@@ -1,9 +1,9 @@
 <html>
 <meta http-equiv="Cache-control" content="no-cache">
 <head>
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 <link rel="manifest" href="/manifest.json">
 <title>Ukrainian Reader</title>
 </head>
@@ -47,6 +47,10 @@ body {	font-family: 'Literata';
 #tagview ul
 	{ 
 		font-size: 14px;
+	}
+
+.currentcase {
+	font-color: royalblue;
 	}
 	
 #tagview td
@@ -95,7 +99,11 @@ function showLexiconEntry(id,caseid) {
     	let arrayLength = cases.length;
 		for(let i = 0 ; i < arrayLength; i++) { 
    			let thiscase = cases[i];
-   			txt += "<li>"+thiscase['casetext']+"</li>";
+   			txt += "<li";
+   			if (thiscase['caseid']==caseid) {
+   				txt+=" class=\"currentcase\"";
+   			}
+   			txt += ">"+thiscase['casetext']+"</li>";
 		}
     	txt += "</ul>";
     }
@@ -104,7 +112,7 @@ function showLexiconEntry(id,caseid) {
 
 function highlightAll(id) {
 	console.log('Highlighting:',id);
-	console.log(lexicon['id'+id]);
+	console.log(lexicon['id:'+id]);
 	document.querySelectorAll('.tag').forEach(function(el) {
 		el.style.borderBottom="1px dotted gray";
 		el.style.color="black";
@@ -149,7 +157,7 @@ return true;
 <body onLoad="triggerRequest()">
 <div id="headline">Ukrainian Reader</div>
 <div id="maintext">
-Щодня я прокидаюсь рівно <span class="tag" data-lexiconid="GenTime" data-caseid="">о</span> 4.45. Декілька секунд я просто дивлюся <span class="tag" data-lexiconid="AccPrep">в</span> стел<span class="tag" data-lexiconid="AccNoun">ю</span> і згадую хто я і де. <span class="tag" data-lexiconid="AccPers">Мене</span> звати Оксана. Просто Оксана. Я лежу <span class="tag" data-lexiconid="LocPrep">на</span> п'ять<span class="tag" data-lexiconid="LocAdj">ох</span> стільц<span class="tag" data-lexiconid="LocNoun">ях</span>, котрі стоять <span class="tag" data-lexiconid="AccPrep">під</span> стін<span class="tag" data-lexiconid="AccNoun">ою</span>. Твердо, але якби не підстелений коц і старий светер під головою – було б іще гірше. А так – може бути. Майже нічого не видно, бо світло, яке проникає через шпарину в дверях, освітлює тільки вузьку смужку стіни. В стіні – цвях. На цвяху – одяг. Все, час вставати. Раз – скинула коц, два – сіла на стілець, три – встала. Води – пів мидниці, за ніч вона охолола, але так мабуть краще. Одною рукою вмиваюся, другою – зачісуюсь. Волосся – в косичку. Щодня, рівно о 5.15 я виходжу з дому і починаю працювати. В мене в руках карта, зошит і олівець. На голові – ліхтар, схожий на шахтарський. Я – інспектор дорожніх знаків. За 1 годину 45 хвилин я повинна перевірити, чи за ніч нічого не сталося зі знаками, розміткою і світлофорами на моїй ділянці. Часу мало – роботи багато. Треба бути дуже уважною. Так. 5.3 «Дорога для автомобілів» – ОК. 5.4 «Кінець дороги для автомобілів» – все правильно. Ставлю галочку в зошиті. Йдемо далі.
+Щодня я прокидаюсь рівно <span class="tag" data-lexiconid="GenTime" data-caseid="">о</span> 4.45. Декілька секунд я просто дивлюся <span class="tag" data-lexiconid="AccPrep">в</span> стел<span class="tag" data-lexiconid="AccNoun">ю</span> і згадую хто я і де. <span class="tag" data-lexiconid="AccPers" data-caseid="1">Мене</span> звати Оксана. Просто Оксана. Я лежу <span class="tag" data-lexiconid="LocPrep">на</span> п'ять<span class="tag" data-lexiconid="LocAdj">ох</span> стільц<span class="tag" data-lexiconid="LocNoun">ях</span>, котрі стоять <span class="tag" data-lexiconid="AccPrep">під</span> стін<span class="tag" data-lexiconid="AccNoun">ою</span>. Твердо, але якби не підстелений коц і старий светер під головою – було б іще гірше. А так – може бути. Майже нічого не видно, бо світло, яке проникає через шпарину в дверях, освітлює тільки вузьку смужку стіни. В стіні – цвях. На цвяху – одяг. Все, час вставати. Раз – скинула коц, два – сіла на стілець, три – встала. Води – пів мидниці, за ніч вона охолола, але так мабуть краще. Одною рукою вмиваюся, другою – зачісуюсь. Волосся – в косичку. Щодня, рівно о 5.15 я виходжу з дому і починаю працювати. В мене в руках карта, зошит і олівець. На голові – ліхтар, схожий на шахтарський. Я – інспектор дорожніх знаків. За 1 годину 45 хвилин я повинна перевірити, чи за ніч нічого не сталося зі знаками, розміткою і світлофорами на моїй ділянці. Часу мало – роботи багато. Треба бути дуже уважною. Так. 5.3 «Дорога для автомобілів» – ОК. 5.4 «Кінець дороги для автомобілів» – все правильно. Ставлю галочку в зошиті. Йдемо далі.
 
 <p><i>Adapted from: Дзвінка Матіяш, Сьома зміна</i></p>
 </div>
