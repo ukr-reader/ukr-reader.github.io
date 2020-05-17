@@ -65,7 +65,7 @@ body {	font-family: 'Literata';
 <script>
 var lexicon;
 
-function lexiconDetail(id,caseid) {
+function showLexiconEntry(id,caseid) {
     var txt="Temporary text: "+id+":"+caseid;
     document.getElementById("tagview").innerHTML = txt;
 }
@@ -105,7 +105,7 @@ document.querySelectorAll('.tag').forEach(function(item) {
   // add event to each of the element
   item.addEventListener('mouseover', function(e) {
   	highlightAll(this.dataset.lexiconid);
-  	document.getElementById('tagview').innerHTML=lexiconDetail(this.dataset.lexiconid,this.dataset.caseid);
+  	showLexiconEntry(this.dataset.lexiconid,this.dataset.caseid);
   })
 });
 return true;
