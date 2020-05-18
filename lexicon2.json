@@ -116,7 +116,7 @@
 
 		"id:LocNoun": {
 			"head": "Locative ending (noun)",
-			"body": "<i>table of endings?</i><br>Masculine -к, -ак, -ук, -ок ends in у: <div class=\"eg\">будинок – у будинку<br>парк – у парку</div>Other short nouns: <div class=\"eg\">сніг – у снігу<br> сад – у саду<br>гай – у гаю </div>Masculine 'human' nouns end in -ові, -еві, -єві:<div class=\"eg\">батько – на батькові<br> коваль – на ковалеві<br>водій – на водієві</div>Before і these letters change: к → ц, г → з, х → с:<div class=\"eg\">рука → в руці, <br>нога → на нозі, <br>поверх → на поверсі</div>"
+			"body": "<h5>Singular</h5>Mostly -і<h5>Plural</h5>-ах and -ях<h5>Notes</h5><br>Masculine -к, -ак, -ук, -ок ends in у: <div class=\"eg\">будинок – у будинку<br>парк – у парку</div>Other short nouns: <div class=\"eg\">сніг – у снігу<br> сад – у саду<br>гай – у гаю </div>Masculine 'human' nouns end in -ові, -еві, -єві:<div class=\"eg\">батько – на батькові<br> коваль – на ковалеві<br>водій – на водієві</div>Before і these letters change: к → ц, г → з, х → с:<div class=\"eg\">рука → в руці, <br>нога → на нозі, <br>поверх → на поверсі</div>"
 		},
 	
 		"id:LocAdj": {
