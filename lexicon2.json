@@ -116,7 +116,7 @@
 
 		"id:LocNoun": {
 			"head": "Locative ending (noun)",
-			"body": "<i>table of endings?</i><br>The locative of masculine nouns ending in -к, -ак, -ук, -ок ends in у: будинок – у будинку, парк – у парку.<br>The same applies to a few other short nouns: сніг – у снігу, сад – у саду, гай – у гаю (soft equivalent of у).<br>The locative of masculine nouns denoting human beings ends in -ові, -еві, -єві: батько – на батькові, коваль – на ковалеві, водій – на водієві.<br>If the consonants к, г, х occur before an ending in і in the locative, these letters change: к – ц, г – з, х – с: рука – в руці, нога – на нозі, поверх – на поверсі."
+			"body": "<i>table of endings?</i><br>Masculine -к, -ак, -ук, -ок ends in у: <br>будинок – у будинку, парк – у парку<br>Other short nouns: <br>сніг – у снігу, сад – у саду, гай – у гаю <br>Masculine nouns denoting humans beings end in -ові, -еві, -єві:<br>батько – на батькові, коваль – на ковалеві, водій – на водієві.<br>These letters change: к → ц, г → з, х → с:<br>рука → в руці, нога → на нозі, поверх → на поверсі."
 		},
 	
 		"id:LocAdj": {
